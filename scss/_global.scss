@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+html {
+  background-color: $white;
+}
+
+body {
+  background-color: $white;
+  color: $black;
+  font-family: $montserrat;
+  font-size: 13px;
+}
+
+.title {
+  font-size: 64px;
+}
+
+.nav-item,
+.sub-title {
+  font-size: 24px;
+}
+
+.footer-title {
+  font-size: 48px;
+}
+
+a {
+  color: $white;
+  text-decoration: none;
+}
